@@ -1,0 +1,35 @@
+{
+  "name": "DocTalker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Peter Khalil",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^2.6.4",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "langchain": "^0.0.177",
+    "mathjs": "^12.0.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^7.6.3",
+    "pdf-parse": "^1.1.1",
+    "string-minify": "^1.0.1",
+    "tesseract.js": "^5.0.3",
+    "youtube-transcript": "^1.0.6",
+    "youtubei.js": "^7.0.0"
+  }
+}
